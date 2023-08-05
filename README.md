@@ -1,8 +1,12 @@
 # CookEase Mobile App
 
+| Homepage                                     | Meals Page                                   | More Details Page                              |
+| -------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
+| ![demo-photo-one](./demo-photos/photo-1.png) | ![demo-photo-two](./demo-photos/photo-2.png) | ![demo-photo-three](./demo-photos/photo-3.png) |
+
 This is a mobile culinary app that uses [TheMealDB API](https://themealdb.com) to get meal categories, recipes, ingredients, and all the information on the app.
 
-The app is build in React Native.
+The app is build using React Native and Expo.
 
 ## How To Run
 
