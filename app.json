@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "cookease",
+    "name": "Cook Ease",
     "slug": "cookease",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tsbsankara.cookease"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4c534f67-21a2-4703-99a1-28d0836985f7"
+      }
     }
   }
 }
