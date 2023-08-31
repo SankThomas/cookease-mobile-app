@@ -26,7 +26,7 @@ export default function Home({ navigation }) {
   }, []);
 
   return (
-    <ScrollView style={globals.container}>
+    <ScrollView showsVerticalScrollIndicator={false} style={globals.container}>
       <View style={styles.container}>
         <Text style={globals.heading}>Browse Meal Categories</Text>
 

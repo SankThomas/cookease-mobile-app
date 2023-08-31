@@ -26,7 +26,7 @@ export default function Category({ route, navigation }) {
   }, []);
 
   return (
-    <ScrollView style={globals.container}>
+    <ScrollView showsVerticalScrollIndicator={false} style={globals.container}>
       <View style={styles.container}>
         <Text style={globals.heading}>{route.params.strCategory}</Text>
         <Text style={globals.text}>{route.params.strCategoryDescription}</Text>

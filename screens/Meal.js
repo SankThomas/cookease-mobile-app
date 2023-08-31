@@ -26,7 +26,7 @@ export default function Meal({ route, navigation }) {
   }, []);
 
   return (
-    <ScrollView style={globals.container}>
+    <ScrollView showsVerticalScrollIndicator={false} style={globals.container}>
       <View style={styles.container}>
         <Text style={globals.heading}>{route.params.strMeal}</Text>
 
